@@ -1,9 +1,7 @@
-TypeScript React Styled Components Demo
+TypeScript React Styled Components Defined Style for Custom Component Demo
 =====================================================
 
-styled-components如何包装React component
-
-注意：对自定义的component进行多次wrap，类型依然正常!
+自己定义的react组件必须支持`className`时，才能使用styled-component给它设置样式。
 
 ```
 npm install

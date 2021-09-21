@@ -1,9 +1,11 @@
 import React, {FC} from 'react';
 
 export type Props = {
-  ttt: string
+  // className is required to apply style
+  className?: string;
+  text: string
 }
 
-export const Button: FC<Props> = ({ttt}) => {
-  return <button>{ttt}</button>
+export const Button: FC<Props> = ({text, className}) => {
+  return <button className={className}>{text}</button>
 }
